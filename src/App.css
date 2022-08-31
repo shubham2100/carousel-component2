@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+header{
+  background-color: black;
+}
+.yellow-color{
+  color: yellow;
+}
+
+.white-color{
+color:white;
+}
+.container {
+  display: flex;
+  margin: 0px 50px 10px 50px;
+  justify-content: space-between;
+}
+
+.unordered-list {
+  display: flex;
+  list-style: none;
+}
+.list-elements{
+  margin-right: 20px;
+}
+
+.bank-title{
+  align-self: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
